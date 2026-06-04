@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio de Investigaciones en Biotecnología y Genómica Animal (FAVET-INBIOGEN) - Universidad de Chile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            max-width: 380px;
+            height: auto;
+        }
+        h1 {
+            color: #003087;
+            border-bottom: 3px solid #c8102e;
+            padding-bottom: 10px;
+            margin: 0;
+            text-align: center;
+        }
+        h2 { color: #c8102e; }
+        h3 { color: #003087; }
+
+        .redes-sociales {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .redes-sociales a {
+            margin: 0 12px;
+            text-decoration: none;
+            color: #003087;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .redes-sociales a:hover {
+            color: #c8102e;
+        }
+        .icon {
+            font-size: 1.4em;
+            margin-right: 6px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        ul li:before {
+            content: "✔";
+            color: #c8102e;
+            position: absolute;
+            left: 0;
+        }
+        .servicios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #c8102e;
+        }
+        .publicaciones {
+            margin-top: 30px;
+        }
+        .pub-item {
+            background: #f8f9fa;
+            padding: 18px;
+            margin-bottom: 18px;
+            border-radius: 6px;
+            border-left: 5px solid #c8102e;
+        }
+        .pub-item h4 {
+            margin: 0 0 8px 0;
+            color: #003087;
+            font-size: 1.1em;
+        }
+        .pub-item p {
+            margin: 6px 0 0 0;
+            color: #444;
+        }
+        .pub-year {
+            color: #c8102e;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="header">
+            <img src="logo_favet_inbiogen.png" alt="Logo FAVET-INBIOGEN" class="logo">
+        </div>
+
+        <h1>Laboratorio de Investigaciones en Biotecnología y Genómica Animal (FAVET-INBIOGEN)</h1>
+        <p style="text-align: center; margin-top: 10px;"><strong>Facultad de Ciencias Veterinarias y Pecuarias • Universidad de Chile</strong></p>
+
+        <h2>Descripción</h2>
+        <p>El Laboratorio FAVET-INBIOGEN es una <strong>plataforma integral</strong> para investigación, desarrollo e innovación (I+D+i) y la prestación de servicios de alto valor en biotecnología y genómica animal.</p>
+       
+        <p>Áreas clave de excelencia:</p>
+        <ul>
+            <li><strong>Mejoramiento Genético y Breeding Improvement</strong> en especies domésticas y de acuicultura.</li>
+            <li><strong>Diagnósticos Moleculares</strong> de precisión (patógenos, enfermedades genéticas y trazabilidad).</li>
+            <li><strong>Análisis de Microbioma</strong> aplicado a salud, productividad y sostenibilidad animal.</li>
+            <li>Genómica, genotipificación a gran escala y bioinformática avanzada.</li>
+            <li>Docencia de pre y postgrado.</li>
+        </ul>
+
+        <h2>Servicios Ofrecidos</h2>
+        <div class="servicios-grid">
+            <div class="card">
+                <h3>🔬 Mejoramiento Genético (Breeding Improvement)</h3>
+                <p>• Evaluación genética y genómica</p>
+                <p>• Selección asistida por marcadores (MAS)</p>
+                <p>• Predicción genómica multivariada</p>
+                <p>• Análisis GWAS y diseño de programas de mejoramiento</p>
+            </div>
+            <div class="card">
+                <h3>🧪 Diagnósticos Moleculares</h3>
+                <p>• PCR convencional, en tiempo real (HRM) y cuantificación de transcritos</p>
+                <p>• Electroforesis capilar y secuenciación Sanger</p>
+                <p>• Secuenciación NGS (Illumina y Nanopore)</p>
+                <p>• Detección de patógenos, enfermedades hereditarias, parentesco y trazabilidad</p>
+                <p>• Diseño de paneles de paternidad de bajo costo (GBS)</p>
+            </div>
+            <div class="card">
+                <h3>🦠 Análisis de Microbioma</h3>
+                <p>Caracterización metagenómica (16S, ITS y shotgun), diversidad microbiana, disbiosis, probióticos y su impacto en salud, reproducción y eficiencia productiva.</p>
+            </div>
+            <div class="card">
+                <h3>💻 Bioinformática y Biología Computacional</h3>
+                <p>Análisis de datos masivos, GWAS, mapeo genómico, predicción genómica y modelamiento estadístico con servidores de alto rendimiento.</p>
+            </div>
+        </div>
+
+        <div class="servicios-grid">
+            <div class="card">
+                <h3>💻 Servicios asociados al área</h3>
+                <p>• Análisis de transcriptómica (RNA-Seq a gran escala) de animales, plantas y bacterias, desde la muestra a los resultados.</p>
+                <p>• Análisis genómico de animales, plantas y bacterias. Generación de genomas de referencia. </p>
+                <p>• Análisis de metilación de genoma completo y de targets específicos.</p>
+                <p>• Análisis bioinformático de datos masivos, GWAS, mapeo genómico y predicción genómica, con panles de baja o alta densidad</p>
+                <p>• Secuenciación Nanopore</p>
+                  <h3>💻 Desarrollados ggenómicosen FAVET_INBIOGEN</h3>          
+         <p>• Genomas de referencia de Seriola lalandi y E coli Lee negativas a nivel nacional. </p>
+     <p>• Kits de diagnostico rápido de sexo en Seriola lalandi y salmón coho y MDR1 en perros. En desarrollo kits diagnósticos rápidos para Brucella y Piscirickettsia salmonis</p>
+                                
+
+            </div>
+        </div>
+
+        <h2>Equipamiento</h2>
+        <p>El laboratorio cuenta con más de 120 m² equipados con plataformas de última 
+        generación: MiSeq, 2 secuenciadores PromethION, electroforesis capilar, PCR en tiempo 
+        real y servidores de alto cómputo para análisis Nanopore y machine learning para predicción genómica de riesgo.</p>
+
+        <h2>Publicaciones Destacadas</h2>
+        <div class="publicaciones">
+            <!-- Publicaciones (sin cambios) -->
+            <div class="pub-item">
+                <h4>Validación de genes de determinación sexual en salmón coho y desarrollo de prueba diagnóstica rápida con CRISPR/Cas12</h4>
+                <p class="pub-year">Aquaculture, 2026</p>
+                <p>Validación de genes clave de sexo y desarrollo de un test molecular rápido y de bajo costo para determinación sexual en acuicultura.</p>
+            </div>
+            <!-- ... (el resto de publicaciones se mantienen igual) ... -->
+        </div>
+
+        <!-- === REDES SOCIALES === -->
+        <div class="redes-sociales">
+            <h3>Síguenos en nuestras redes</h3>
+            <p>
+                <a href="https://www.instagram.com/inbiogenlab/" target="_blank">
+                    <span class="icon">📷</span> Instagram
+                </a>
+                |
+                <a href="https://www.linkedin.com/in/favet-inbiogen-993341411/" target="_blank">
+                    <span class="icon">🔗</span> LinkedIn Laboratorio
+                </a>
+                |
+                <a href="https://www.linkedin.com/in/victor-martinez-81a71634/" target="_blank">
+                    <span class="icon">🔗</span> Dr. Víctor Martínez
+                </a>
+                |
+                <a href="https://www.linkedin.com/in/nicol%C3%A1s-galarce-797a5367/" target="_blank">
+                    <span class="icon">🔗</span> Dr. Nicolás Galarce
+                </a>
+            </p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #666; font-size: 0.9em;">
+            Publicaciones indexadas en Web of Science, Scopus y SciELO • Actualizado 2026
+        </p>
+    </div>
+</body>
+</html>
