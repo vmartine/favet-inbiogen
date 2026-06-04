@@ -30,7 +30,7 @@
             flex-wrap: wrap;
         }
         .logo {
-            max-width: 380px;
+            max-width: 420px;
             height: auto;
             display: block;
         }
@@ -85,6 +85,21 @@
             border-radius: 6px;
             border-left: 5px solid #c8102e;
         }
+        .pub-item h4 {
+            margin: 0 0 8px 0;
+            color: #003087;
+            font-size: 1.1em;
+        }
+        .pub-item p {
+            margin: 6px 0 0 0;
+            color: #444;
+        }
+        .pub-year {
+            color: #c8102e;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+
         .contacto-form {
             max-width: 700px;
             margin: 30px auto;
@@ -93,15 +108,57 @@
             border-radius: 8px;
             border-left: 5px solid #c8102e;
         }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #003087;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #c8102e;
+            box-shadow: 0 0 5px rgba(200, 16, 46, 0.3);
+        }
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+        button {
+            background-color: #c8102e;
+            color: white;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #a00d24;
+        }
+        .info-contacto {
+            margin: 30px 0;
+            text-align: center;
+            color: #555;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         
-        <!-- LOGO EMBEDDED (Base64) -->
+        <!-- ==================== LOGO ==================== -->
         <div class="header">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgCAYAAAA10dzkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAyNS0wNi0wNCAwNTo1MTozN1o4bQAAAABJRU5ErkJggg==" 
-                 alt="Logo FAVET-INBIOGEN" class="logo">
+            <img src="logo_favet_inbiogen.png" alt="Logo FAVET-INBIOGEN" class="logo">
         </div>
 
         <h1>Laboratorio de Investigaciones en Biotecnología y Genómica Animal (FAVET-INBIOGEN)</h1>
@@ -220,7 +277,7 @@
             </p>
         </div>
 
-        <!-- FORMULARIO -->
+        <!-- FORMULARIO DE CONTACTO -->
         <h2>Contacto</h2>
         <div class="contacto-form">
             <form action="https://formspree.io/f/xldjzzjr" method="POST">
