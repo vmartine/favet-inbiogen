@@ -156,7 +156,6 @@
 <body>
     <div class="container">
         
-        <!-- ==================== LOGO ==================== -->
         <div class="header">
             <img src="logo_favet_inbiogen.png" alt="Logo FAVET-INBIOGEN" class="logo">
         </div>
@@ -222,10 +221,13 @@
                 <p class="pub-year">Aquaculture, 2026</p>
                 <p>Validación de genes clave de sexo y desarrollo de un test molecular rápido y de bajo costo para determinación sexual en acuicultura.</p>
             </div>
-            <!-- Add more publications as needed -->
+            <div class="pub-item">
+                <h4>Genómica comparativa de Escherichia coli productora de toxina Shiga (STEC): adaptaciones del adhesioma según hospedero</h4>
+                <p class="pub-year">Frontiers in Veterinary Science, 2025</p>
+                <p>Estudio comparativo que revela diferencias específicas entre aislados de humanos y bovinos.</p>
+            </div>
         </div>
 
-        <!-- REDES SOCIALES -->
         <div class="redes-sociales">
             <h3>Síguenos</h3>
             <p>
@@ -236,7 +238,6 @@
             </p>
         </div>
 
-        <!-- ==================== FORMULARIO DE CONTACTO ==================== -->
         <h2>Contacto</h2>
         <div class="contacto-form">
             <form action="https://formspree.io/f/xnjyqeza" method="POST">
@@ -268,6 +269,11 @@
                     <label for="mensaje">Mensaje / Consulta *</label>
                     <textarea id="mensaje" name="mensaje" required placeholder="Describa brevemente su consulta o proyecto..."></textarea>
                 </div>
+
+                <!-- Hidden fields for better experience -->
+                <input type="hidden" name="_subject" value="Nueva consulta desde el sitio web FAVET-INBIOGEN">
+                <input type="hidden" name="_next" value="https://yourwebsite.com/gracias.html"> <!-- Optional: change to your thank you page -->
+
                 <div style="text-align: center;">
                     <button type="submit">Enviar Consulta</button>
                 </div>
